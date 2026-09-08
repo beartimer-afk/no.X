@@ -105,3 +105,4 @@
     * [10.3｜模拟器截图成为验收闭环的转折点](things-gao-bao-zhen-fu-ke-yan-jiu/10-guan-jian-tao-lun-yu-jue-ce-yan-jin/10.3-mo-ni-qi-jie-tu-cheng-wei-yan-shou-bi-huan-de-zhuan-zhe-dian.md)
     * [10.4｜GitBook 为什么按“书”而不是邮件仓库组织](things-gao-bao-zhen-fu-ke-yan-jiu/10-guan-jian-tao-lun-yu-jue-ce-yan-jin/10.4gitbook-wei-shen-me-an-shu-er-bu-shi-you-jian-cang-ku-zu-zhi.md)
     * [10.5｜当前交接给新模型时应该先读什么](things-gao-bao-zhen-fu-ke-yan-jiu/10-guan-jian-tao-lun-yu-jue-ce-yan-jin/10.5-dang-qian-jiao-jie-gei-xin-mo-xing-shi-ying-gai-xian-du-shen-me.md)
+  * [11｜当前缺口与清晰度评估（审计反馈）](things-gao-bao-zhen-fu-ke-yan-jiu/11-gap-yu-qing-xi-du-ping-gu.md)
