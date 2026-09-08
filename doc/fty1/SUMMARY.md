@@ -154,3 +154,5 @@
 * [H01 Today 页面规格](h01-today-ye-mian-gui-ge.md)
 * [H02 Todo Editor 页面规格](h02-todo-editor-ye-mian-gui-ge.md)
 * [H03-H08 页面规格索引](h03h08-ye-mian-gui-ge-suo-yin.md)
+* [05 Audit Log - 项目审计记录](05-audit-log-xiang-mu-shen-ji-ji-lu.md)
+* [06 Research Archive - 研究过程归档](06-research-archive-yan-jiu-guo-cheng-gui-dang.md)
