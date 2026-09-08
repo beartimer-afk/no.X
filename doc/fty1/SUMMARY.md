@@ -145,3 +145,4 @@
 * [H10-D｜Anytime + Someday](h10-d-anytime-+-someday.md)
 * [H10-E｜Area + Project](h10-e-area-+-project.md)
 * [H10-F｜Logbook + Quick Find + Special Lists](h10-f-logbook-+-quick-find-+-special-lists.md)
+* [Things 高保真复刻研究 - Implementation Readiness Package](things-gao-bao-zhen-fu-ke-yan-jiu-implementation-readiness-package.md)
