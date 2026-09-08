@@ -1,0 +1,19 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Fty1
+  structure:
+    - type: space
+      key: space-1
+      title: Fty1
+      path: fty1
+      default: true
+      content:
+        directory: ./fty1
+        language: zh
+    - type: space
+      key: space-2
+      title: 余兴｜鸿蒙双人互动产品设计
+      path: yu-xing-hong-meng-shuang-ren-hu-dong-chan-pin-she-ji
+      content:
+        directory: ./yu-xing-hong-meng-shuang-ren-hu-dong-chan-pin-she-ji
+        language: en
