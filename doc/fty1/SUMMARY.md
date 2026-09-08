@@ -112,4 +112,5 @@
   * [14｜AI Developer Execution Layer｜Task Capsule v2](things-gao-bao-zhen-fu-ke-yan-jiu/14-ai-developer-execution-layer-task-capsule-v2.md)
   * [15｜Implementation Roadmap｜100+ 原子任务与关键路径](things-gao-bao-zhen-fu-ke-yan-jiu/15implementation-roadmap100+-yuan-zi-ren-wu-yu-guan-jian-lu-jing.md)
   * [16｜Task Registry｜实施活台账](things-gao-bao-zhen-fu-ke-yan-jiu/16task-registry-shi-shi-huo-tai-zhang.md)
-  * [17｜Evidence Asset & Measurement Pipeline](things-gao-bao-zhen-fu-ke-yan-jiu/17-evidence-asset-and-measurement-pipeline.md)
+  * [17｜Evidence Asset & Measurement Pipeline](things-gao-bao-zhen-fu-ke-yan-jiu/17-evidence-asset-and-measurement-pipeline/README.md)
+    * [17.1｜Evidence Manifest v1｜六份原始真机录屏](things-gao-bao-zhen-fu-ke-yan-jiu/17-evidence-asset-and-measurement-pipeline/17.1evidence-manifest-v1-liu-fen-yuan-shi-zhen-ji-lu-ping.md)
