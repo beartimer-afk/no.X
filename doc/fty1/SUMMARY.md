@@ -156,3 +156,6 @@
 * [H03-H08 页面规格索引](h03h08-ye-mian-gui-ge-suo-yin.md)
 * [05 Audit Log - 项目审计记录](05-audit-log-xiang-mu-shen-ji-ji-lu.md)
 * [06 Research Archive - 研究过程归档](06-research-archive-yan-jiu-guo-cheng-gui-dang.md)
+* [07 Task Registry Final](07-task-registry-final.md)
+* [08 Evidence Handbook](08-evidence-handbook.md)
+* [09 Outlook Archive](09-outlook-archive.md)
