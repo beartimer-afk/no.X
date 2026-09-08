@@ -12,13 +12,15 @@ TASK-001 PASS。
 
 pages/Index.ets pages/HomePage.ets pages/RoundReadyPage.ets components/NoxPrimaryButton.ets components/NoxBombCore.ets constants/CopyConstants.ets model/GameState.ets model/GameSession.ets
 
+禁止修改静态资源文件。
+
 ## Home → Ready
 
 开始游戏点击：发送 HOME\_START\_TAP；记录 HAPTIC\_TAP 占位日志；state=ROUND\_READY。Index 做 220ms cross-fade：Home opacity 1→0，Ready 0→1。禁止系统 Router 和横向滑动。
 
 ## Round Ready 390×844
 
-BackButton：X16；安全区底+8；命中44×44；点击 state=HOME。
+BackButton：X16；安全区底+8；命中44×44；内部图标固定使用资源 `$media:nox_ic_back`，视觉 24×24vp；禁止系统默认箭头、文字箭头、第三方 icon。点击 state=HOME。
 
 ROUND 01：top88；居中；13fp COLOR\_TEXT\_MUTED。
 
@@ -30,13 +32,11 @@ Core：中心(195,370)；视觉外径156vp；不可点击；静态。
 
 ### Ready Core 每层必须一致
 
-从内到外：
-
 * Center Dot：10×10vp 实心圆，COLOR\_TEXT\_MAIN，opacity0.92；
-* Inner Disk：92×92vp 圆，填充 COLOR\_SURFACE opacity0.62；
+* Inner Disk：92×92vp 圆，COLOR\_SURFACE opacity0.62；
 * Primary Ring：132×132vp，stroke3vp，COLOR\_PURPLE opacity0.78；
 * Pressure Ring：156×156vp，stroke4vp，COLOR\_PINK opacity0.74；
-* Glow：视觉最大 206vp，COLOR\_PURPLE opacity0.18 + COLOR\_PINK opacity0.16；
+* Glow：最大206vp，COLOR\_PURPLE opacity0.18 + COLOR\_PINK opacity0.16；
 * 禁止旋转、粒子、心形、HOLD 字样。
 
 RuleLines top492：一个问题。 / 一个计时。 / 一个结果。；17fp；行间净距10；居中。
@@ -49,7 +49,7 @@ CTA：X32 Y692 W326 H56 Radius28；我准备好了；粉→紫渐变。
 
 ## 禁止
 
-系统 Router、3/2/1、玩家名、头像、进度条、Core 动画、进入 Bomb。
+系统 Router、3/2/1、玩家名、头像、进度条、Core 动画、进入 Bomb、创建/替换任何 icon 文件。
 
 ## 必交
 
@@ -57,4 +57,4 @@ TASK002\_round\_ready.png；TASK002\_home\_to\_ready.mp4。
 
 ## 验收
 
-A01 Index 只按 state 切页面；A02 cross-fade；A03 文案一致；A04 Core 中心(195,370)、五层结构尺寸正确；A05 CTA(32,692,326,56)；A06 Ready 点击不进 Bomb；A07 Back 回 Home。
+A01 Index 只按 state 切页面；A02 cross-fade；A03 文案一致；A04 Core 中心/五层尺寸正确；A05 CTA正确；A06 Ready 点击不进 Bomb；A07 Back 回 Home；A08 Back 必须使用 nox\_ic\_back 资源。
